@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c1651245ed.js" crossorigin="anonymous"></script>
+    <title>친구 페이지</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__time">
+        <span>11:09</span>
+      </div>
+      <div class="status-bar__device">
+        <div class="signal">
+          <div class="signal__first"></div>
+          <div class="signal__second"></div>
+          <div class="signal__third"></div>
+          <div class="signal__fourth"></div>
+        </div>
+        <i class="ri-wifi-fill ri-xl"></i>
+        <i class="ri-battery-charge-fill ri-xl"></i>
+      </div>
+    </div>
+
+    <header class="logo-header">
+      <a href="./friends.html" class="logo-header__link">
+        <h1>친구들</h1>
+      </a>
+
+      <div class="logo-header__icons">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-solid fa-music fa-xl"></i>
+        <i class="fa-solid fa-gear fa-xl"></i>
+      </div>
+    </header>
+
+    <a href="./friends.html" id="friends-name-display-link">
+      <i class="fa-solid fa-circle-info fa-lg"></i>
+      <span>친구 이름 보기</span>
+      <i class="fa-solid fa-chevron-right fa-lg"></i>
+    </a>
+
+    <main class="friends-main">
+      <section class="user-component">
+        <div class="user-component__main">
+          <img src="./img/avatar.png" class="user-component__avatar user-component__avatar--medium" />
+          <div class="user-component__text">
+            <span class="user-component__name">사용자</span>
+            <span class="user-component__message">테스트 메시지</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="divide-line">
+        <div class="divide-line__container">
+          <span>채널</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+      </div>
+
+      <section class="user-component">
+        <div class="user-component__main">
+          <img src="./img/avatar.png" class="user-component__avatar user-component__avatar--big" />
+          <div class="user-component__text">
+            <span class="user-component__name">채널</span>
+            <span class="user-component__message"></span>
+          </div>
+        </div>
+        <div class="user-component__info">
+          <span>2</span>
+          <i class="fa-solid fa-chevron-right fa-lg"></i>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <i class="fa-solid fa-user fa-2x"></i>
+      <i class="fa-regular fa-comment fa-2x"></i>
+      <span class="notification__number">1</span>
+      <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+      <i class="fa-solid fa-ellipsis fa-2x"></i>
+      <div class="notification__dot"></div>
+    </footer>
+  </body>
+</html>
