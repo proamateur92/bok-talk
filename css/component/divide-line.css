@@ -1,0 +1,16 @@
+.divide-line {
+  margin: var(--size-xs) var(--size-md);
+  border-top: 1px solid var(--dark-pink);
+}
+
+.divide-line span,
+.divide-line i {
+  color: var(--light-redpink);
+}
+
+.divide-line__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--size-xs);
+}

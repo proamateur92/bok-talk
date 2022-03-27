@@ -1,0 +1,10 @@
+.logo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--size-sm) var(--size-lg);
+}
+
+.logo-header__icons i {
+  margin-left: var(--size-xs);
+}

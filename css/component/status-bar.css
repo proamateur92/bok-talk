@@ -2,13 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  color: var(--dark-pink);
+  color: var(--redpink);
   margin: 0 var(--size-sm);
   padding: var(--size-sm) 0;
 }
 
 .status-bar__time {
-  background-color: var(--pink);
+  background-color: var(--redpink);
   color: var(--light-pink);
   padding: 0 var(--size-sm);
   border-radius: var(--size-lg);
@@ -20,7 +20,7 @@
 }
 
 .status-bar__device > i {
-  margin-left: var(--size-xxs);
+  margin-left: var(--size-2xs);
 }
 
 .signal {
@@ -32,7 +32,7 @@
   display: inline-block;
   width: 4px;
   margin-right: 1px;
-  background-color: var(--pink);
+  background-color: var(--redpink);
 }
 
 .signal__first {
