@@ -1,0 +1,18 @@
+#friends-name-display-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--size-sm) 0;
+  text-align: center;
+  background-color: var(--light-redpink);
+}
+
+#friends-name-display-link span {
+  font-size: var(--font-lg);
+  color: var(--light-pink);
+}
+
+#friends-name-display-link i {
+  margin: 0 var(--size-xs);
+  color: var(--light-pink);
+}
