@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
-    <title>Document</title>
+    <title>로그인 페이지</title>
   </head>
   <body>
     <div class="status-bar">
@@ -20,9 +20,26 @@
           <div class="signal__third"></div>
           <div class="signal__fourth"></div>
         </div>
-        <i class="ri-wifi-fill ri-lg"></i>
-        <i class="ri-battery-charge-fill ri-lg"></i>
+        <i class="ri-wifi-fill ri-xl"></i>
+        <i class="ri-battery-charge-fill ri-xl"></i>
       </div>
     </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">BokTalk에 오신 것을 환영합니다!</h1>
+      <span class="welcome-header__subtitle">
+        계정을 이미 가지고 계신 경우,<br />
+        이메일 또는 핸드폰 번호로 로그인 해주세요
+      </span>
+    </header>
+
+    <main class="login">
+      <form action="./friends.html" class="login-form">
+        <input type="text" class="login-form__id" placeholder="아이디를 입력해주세요." />
+        <input type="password" class="login-form__pw" placeholder="비밀번호를 입력해주세요" />
+        <input type="submit" class="login-form__submit" value="로그인" />
+        <a href="https://www.kakaocorp.com/page/service/service/KakaoTalk" class="login__link" target="_blank">아이디 또는 비밀번호 찾기</a>
+      </form>
+    </main>
   </body>
 </html>

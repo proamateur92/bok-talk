@@ -131,3 +131,39 @@ body {
   font-family: 'Dongle', sans-serif;
   background-color: var(--light-pink);
 }
+div,
+i {
+  user-select: none;
+  cursor: pointer;
+}
+h1 {
+  font-size: var(--font-xl);
+  font-weight: var(--font-weight-bold);
+  user-select: none;
+}
+span {
+  font-size: var(--font-md);
+  user-select: none;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+input {
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: var(--dark-pink);
+  cursor: progress;
+}
+input,
+button {
+  font-family: 'Dongle', sans-serif;
+}
+input::placeholder {
+  color: var(--dark-pink);
+  font-family: 'Dongle', sans-serif;
+}
