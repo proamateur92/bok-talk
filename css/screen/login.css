@@ -1,0 +1,48 @@
+.welcome-header {
+  text-align: center;
+  margin: var(--size-xl) 0;
+}
+
+.welcome-header__title {
+  color: var(--redpink);
+}
+
+.welcome-header__subtitle {
+  display: inline-block;
+  margin-top: var(--size-md);
+  color: var(--pink);
+}
+
+.login-form {
+  margin: 0 var(--size-xl);
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input,
+.login-form button {
+  margin-bottom: var(--size-xs);
+  padding: var(--size-sm);
+}
+
+.login-form__id,
+.login-form__pw {
+  background-color: inherit;
+  color: var(--pink);
+  font-size: var(--font-md);
+  border-bottom: 1px solid var(--pink);
+}
+
+.login-form__submit {
+  color: var(--white);
+  background-color: var(--dark-pink);
+  font-size: var(--font-md);
+  border-radius: var(--size-sm);
+  cursor: pointer;
+}
+
+.login__link {
+  margin: 0 auto;
+  text-align: center;
+  font-size: var(--font-md);
+}
