@@ -137,6 +137,12 @@ i {
   cursor: pointer;
 }
 h1 {
+  font-size: var(--font-2x);
+  font-weight: var(--font-weight-bold);
+  color: var(--redpink);
+  user-select: none;
+}
+h2 {
   font-size: var(--font-xl);
   font-weight: var(--font-weight-bold);
   user-select: none;
@@ -156,7 +162,6 @@ input {
 }
 a {
   text-decoration: none;
-  color: var(--dark-pink);
   cursor: progress;
 }
 input,
@@ -166,4 +171,7 @@ button {
 input::placeholder {
   color: var(--dark-pink);
   font-family: 'Dongle', sans-serif;
+}
+i {
+  color: var(--redpink);
 }

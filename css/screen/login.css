@@ -35,7 +35,7 @@
 
 .login-form__submit {
   color: var(--white);
-  background-color: var(--dark-pink);
+  background-color: var(--redpink);
   font-size: var(--font-md);
   border-radius: var(--size-sm);
   cursor: pointer;
@@ -44,5 +44,6 @@
 .login__link {
   margin: 0 auto;
   text-align: center;
+  color: var(--dark-pink);
   font-size: var(--font-md);
 }
