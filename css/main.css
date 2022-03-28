@@ -1,14 +1,15 @@
 /* components */
 @import url('./component/status-bar.css');
 @import url('./component/logo-header.css');
-@import url('./component/user-component.css');
 @import url('./component/divide-line.css');
 @import url('./component/footer-bar.css');
+@import url('./component/user-component.css');
 
 /* screen */
 @import url('./screen/login.css');
 @import url('./screen/friends.css');
 @import url('./screen/find.css');
+@import url('./screen/more.css');
 
 /* common */
 @import url('./reset.css');
