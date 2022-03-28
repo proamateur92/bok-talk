@@ -1,0 +1,35 @@
+.setting-main {
+  padding-bottom: 70px;
+  margin: 0 var(--size-md);
+}
+
+.menu:first-child .divide-line--full:last-child {
+  padding: 0;
+  background-color: var(--dark-redpink);
+}
+
+.menu__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--size-md) 0;
+}
+
+.menu__row span {
+  font-size: var(--font-md);
+  color: var(--redpink);
+}
+
+.menu__column {
+  display: flex;
+  align-items: center;
+}
+
+.menu__column i {
+  margin-right: var(--size-xs);
+}
+
+.menu__column span {
+  font-size: var(--font-lg);
+  color: var(--dark-redpink);
+}
