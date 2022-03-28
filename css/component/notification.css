@@ -1,0 +1,30 @@
+.notification__number {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  line-height: 23px;
+  width: var(--size-md);
+  height: var(--size-md);
+  left: var(--size-md);
+  margin-top: -5px;
+  margin-right: 95px;
+  border-radius: 50%;
+  color: var(--light-pink);
+  background-color: var(--dark-redpink);
+  cursor: pointer;
+}
+
+.notification__number--chat {
+  position: static;
+  margin: 0;
+}
+
+.notification__dot {
+  position: absolute;
+  width: var(--size-2xs);
+  height: var(--size-2xs);
+  bottom: var(--size-lg);
+  right: -5px;
+  border-radius: 50%;
+  background-color: var(--dark-redpink);
+}

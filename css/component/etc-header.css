@@ -1,0 +1,19 @@
+.etc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* status bar fixed의 스크롤 이슈로 인한 margin 값 임시 처리 */
+  margin-top: 70px;
+  margin-bottom: var(--size-sm);
+  margin-left: var(--size-md);
+  margin-right: var(--size-md);
+}
+
+.etc-header__icons a:first-child {
+  margin-right: var(--size-xs);
+}
+
+.etc-header--chatroom a {
+  width: 33%;
+}

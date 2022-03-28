@@ -64,8 +64,3 @@
   flex-direction: column;
   align-items: flex-end;
 }
-
-.notification__number--chat {
-  position: static;
-  margin: 0;
-}

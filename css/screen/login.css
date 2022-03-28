@@ -1,6 +1,9 @@
 .welcome-header {
   text-align: center;
-  margin: var(--size-xl) 0;
+  margin-bottom: var(--size-xl);
+
+  /* status bar fixed로 인한 y축 스크롤 숨기기 임시처리 */
+  margin-top: 105px;
 }
 
 .welcome-header__title {

@@ -1,8 +1,13 @@
 .logo-header {
+  /* status bar fixed로 인한 y축 스크롤 숨기기 임시처리 */
+  margin-top: 65px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: var(--size-sm) var(--size-lg);
+  margin-bottom: var(--size-sm);
+  margin-left: var(--size-lg);
+  margin-right: var(--size-lg);
 }
 
 .logo-header__icons i {

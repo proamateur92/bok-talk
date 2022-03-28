@@ -1,10 +1,17 @@
 .status-bar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+
   color: var(--redpink);
-  margin: 0 var(--size-sm);
-  padding: var(--size-sm) 0;
+  padding: var(--size-sm);
+  box-sizing: border-box;
+  background-color: var(--light-pink);
 }
 
 .status-bar__time {
