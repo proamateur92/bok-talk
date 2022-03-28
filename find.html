@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c1651245ed.js" crossorigin="anonymous"></script>
+    <title>친구찾기 페이지</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__time">
+        <span>11:09</span>
+      </div>
+      <div class="status-bar__device">
+        <div class="signal">
+          <div class="signal__first"></div>
+          <div class="signal__second"></div>
+          <div class="signal__third"></div>
+          <div class="signal__fourth"></div>
+        </div>
+        <i class="ri-wifi-fill ri-xl"></i>
+        <i class="ri-battery-charge-fill ri-xl"></i>
+      </div>
+    </div>
+
+    <header class="logo-header">
+      <a href="./find.html" class="logo-header__link">
+        <h1>친구 찾기</h1>
+      </a>
+
+      <div class="logo-header__icons">
+        <a href="./find.html" class="logo-header__link">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </a>
+        <a href="./setting.html" class="logo-header__link">
+          <i class="fa-solid fa-gear fa-xl"></i>
+          <div class="notification__dot"></div>
+        </a>
+      </div>
+    </header>
+
+    <main class="find-main">
+      <section class="find-icon">
+        <div class="find-icon__container">
+          <i class="fa-solid fa-qrcode fa-2x"></i>
+          <span class="find-icon__title">QR코드</span>
+        </div>
+        <div class="find-icon__container">
+          <i class="fa-solid fa-address-book fa-2x"></i>
+          <span class="find-icon__title">연락처 추가</span>
+        </div>
+        <div class="find-icon__container">
+          <i class="fa-regular fa-id-badge fa-2x"></i>
+          <span class="find-icon__title">아이디 추가</span>
+        </div>
+        <div class="find-icon__container">
+          <i class="fa-regular fa-envelope fa-2x"></i>
+          <span class="find-icon__title">초대하기</span>
+        </div>
+      </section>
+
+      <div class="divide-line">
+          <span>추천</span>
+        </div>
+      </div>
+
+      <span class="find-recommend-text">
+        추천 친구가 없습니다.
+      </span>
+
+      <div class="divide-line">
+        <div class="divide-line__container">
+          <span>오픈 채팅</span>
+          <div class="dvide-line__open-chat">
+            <span>오픈 채팅 홈으로 가기</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+
+      <section class="find-openchat">
+        <div class="find-openchat__text">
+          <span class="find-openchat__title">
+            #어피치
+          </span>
+          <span class="find-openchat__hash-tag">
+            #어피치#카카오프렌즈
+          </span>
+          <div class="find-openchat__member">
+            <img src="./img/member.png" class="find-openchat__avatar">
+            <span class="find-openchat__members">
+              1,992 members
+            </span>
+            <div class="find-openchat__divide-line"></div>
+            <span class="find-openchat__active">
+              Active
+            </span>
+          </div>
+        </div>
+        <div class="find-openchat__img">
+          <img src="./img/cover.png" class="find-openchat__cover">
+          <div class="find-openchat__hearts">
+            <i class="fa-solid fa-heart"></i>
+            <span class="find-openchat__hearts-num">762</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <a href="./friends.html" class="footer-bar__link">
+        <i class="fa-solid fa-user fa-2x"></i>
+      </a>
+      <a href="./chats.html" class="footer-bar__link">
+        <i class="fa-regular fa-comment fa-2x"></i>
+        <span class="notification__number">1</span>
+      </a>
+      <a href="./find.html" class="footer-bar__link">
+        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+      </a>
+      <a href="./more.html" class="footer-bar__link">
+        <i class="fa-solid fa-ellipsis fa-2x"></i>
+        <div class="notification__dot"></div>
+      </a>
+    </footer>
+  </body>
+</html>
