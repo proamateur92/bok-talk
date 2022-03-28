@@ -8,6 +8,7 @@
 /* screen */
 @import url('./screen/login.css');
 @import url('./screen/friends.css');
+@import url('./screen/find.css');
 
 /* common */
 @import url('./reset.css');
