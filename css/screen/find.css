@@ -1,0 +1,113 @@
+.find-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--size-xs) var(--size-xl);
+}
+
+.find-icon__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--redpink);
+}
+
+.find-icon__container i {
+  color: var(--redpink);
+  margin-bottom: var(--size-xs);
+}
+
+.find-recommend-text {
+  display: block;
+  padding-bottom: var(--size-lg);
+  text-align: center;
+  color: var(--light-redpink);
+}
+
+.find-openchat {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--size-xs) var(--size-md);
+}
+
+.find-openchat__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.find-openchat__title {
+  font-size: var(--font-lg);
+  color: var(--dark-redpink);
+}
+
+.find-openchat__hash-tag {
+  font-size: var(--font-md);
+  color: var(--redpink);
+}
+
+.find-openchat__member {
+  display: flex;
+  align-items: center;
+  color: var(--redpink);
+}
+
+.find-openchat__avatar {
+  width: var(--size-lg);
+  height: var(--size-lg);
+  border-radius: var(--size-md);
+}
+
+.find-openchat__members {
+  font-size: var(--font-sm);
+  margin-right: var(--size-2xs);
+}
+
+.find-openchat__divide-line {
+  width: 1.5px;
+  height: var(--size-sm);
+  background-color: var(--redpink);
+}
+
+.find-openchat__active {
+  font-size: var(--font-sm);
+  color: var(--light-redpink);
+  margin-left: var(--size-2xs);
+}
+
+.find-openchat__img {
+  position: relative;
+}
+
+.find-openchat__cover {
+  width: 100px;
+  height: 100px;
+  background-color: var(--bright-pink);
+  border-radius: var(--size-sm);
+}
+
+.find-openchat__img {
+  display: flex;
+  align-items: center;
+  margin-top: var(--size-sm);
+}
+
+.find-openchat__img i {
+  color: var(--redpink);
+}
+
+.find-openchat__hearts {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--size-xs);
+  margin: 5% 18%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  bottom: 0;
+}
+
+.find-openchat__hearts-num {
+  display: inline-block;
+  margin-left: var(--size-2xs);
+  color: var(--bright-pink);
+}
