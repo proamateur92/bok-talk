@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c1651245ed.js" crossorigin="anonymous"></script>
+    <title>더보기 페이지</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__time">
+        <span>11:09</span>
+      </div>
+      <div class="status-bar__device">
+        <div class="signal">
+          <div class="signal__first"></div>
+          <div class="signal__second"></div>
+          <div class="signal__third"></div>
+          <div class="signal__fourth"></div>
+        </div>
+        <i class="ri-wifi-fill ri-xl"></i>
+        <i class="ri-battery-charge-fill ri-xl"></i>
+      </div>
+    </div>
+
+    <header class="logo-header">
+      <a href="./find.html" class="logo-header__link">
+        <h1>더보기</h1>
+      </a>
+
+      <div class="logo-header__icons">
+        <a href="./find.html" class="logo-header__link">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </a>
+        <a href="#" class="logo-header__link">
+          <i class="fa-solid fa-music fa-xl"></i>
+        </a>
+        <a href="./setting.html" class="logo-header__link">
+          <i class="fa-solid fa-gear fa-xl"></i>
+          <div class="notification__dot"></div>
+        </a>
+      </div>
+    </header>
+
+    <main class="more-main">
+      <section class="user-component">
+        <div class="user-component__main">
+          <img src="./img/avatar.png" class="user-component__avatar user-component__avatar--medium" />
+          <div class="user-component__text">
+            <span class="user-component__name">사용자</span>
+          </div>
+        </div>
+        <div class="user-component__info user-component__info--vertical">
+          <i class="fa-regular fa-message fa-2x"></i>
+          <div class="text__line">
+            <div class="line"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="more-icon">
+        <div class="more-icon__container">
+          <i class="fa-regular fa-calendar-days fa-2x"></i>
+          <span class="more-icon__title">달력</span>
+        </div>
+        <div class="more-icon__container">
+          <i class="fa-solid fa-face-grin-beam fa-2x"></i>
+          <span class="more-icon__title">이모티콘</span>
+          <div class="notification__dot notification__dot--imoticon"></div>
+        </div>
+        <div class="more-icon__container">
+          <i class="fa-solid fa-comments fa-2x"></i>
+          <span class="more-icon__title">오픈채팅</span>
+        </div>
+        <div class="more-icon__container">
+          <i class="fa-solid fa-brush fa-2x"></i>
+          <span class="more-icon__title">테마</span>
+        </div>
+      </section>
+
+      <div class="divide-line">
+        <span>제휴 애플리케이션</span>
+      </div>
+
+      <section class="more-icon">
+        <div class="more-icon__container">
+          <i class="fa-solid fa-money-bill-transfer fa-2x"></i>
+          <span class="more-icon__title">복 페이</span>
+        </div>
+        <div class="more-icon__container">
+          <i class="fa-solid fa-taxi fa-2x"></i>
+          <span class="more-icon__title">복 택시</span>
+        </div>
+        <div class="more-icon__container"></div>
+        <div class="more-icon__container"></div>
+      </section>
+    </main>
+
+    <footer class="footer-bar">
+      <a href="./friends.html" class="footer-bar__link">
+        <i class="fa-solid fa-user fa-2x"></i>
+      </a>
+      <a href="./chats.html" class="footer-bar__link">
+        <i class="fa-regular fa-comment fa-2x"></i>
+        <span class="notification__number">1</span>
+      </a>
+      <a href="./find.html" class="footer-bar__link">
+        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+      </a>
+      <a href="./more.html" class="footer-bar__link">
+        <i class="fa-solid fa-ellipsis fa-2x"></i>
+        <div class="notification__dot"></div>
+      </a>
+    </footer>
+  </body>
+</html>
