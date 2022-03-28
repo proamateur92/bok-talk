@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/c1651245ed.js" crossorigin="anonymous"></script>
+    <title>대화창 페이지</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__time">
+        <span>11:09</span>
+      </div>
+      <div class="status-bar__device">
+        <div class="signal">
+          <div class="signal__first"></div>
+          <div class="signal__second"></div>
+          <div class="signal__third"></div>
+          <div class="signal__fourth"></div>
+        </div>
+        <i class="ri-wifi-fill ri-xl"></i>
+        <i class="ri-battery-charge-fill ri-xl"></i>
+      </div>
+    </div>
+
+    <header class="etc-header etc-header--chatroom">
+      <a href="javascript:history.back();">
+        <i class="fa-solid fa-chevron-left fa-lg"></i>
+      </a>
+      <a href="./setting.html" class="etc-header__link">
+        <h2>어피치</h2>
+      </a>
+      <div class="etc-header__icons">
+        <a href="./find.html" class="etc-header__link">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </a>
+        <a href="./find.html" class="etc-header__link">
+          <i class="fa-solid fa-bars fa-lg"></i>
+        </a>
+      </div>
+    </header>
+
+    <main class="chatroom-main">
+      <section class="date-container">
+        <div class="date">
+          <span>2022년 3월 28일 월요일</span>
+        </div>
+      </section>
+      <section class="chat">
+        <img src="./img/avatar.png" class="chat__avatar"></img>
+        <div class="chat-container">
+          <span class="chat__name">어피치</span>
+          <div class="chat__message">
+            <div class="chat__bubble">
+              <span>안녕!</span>
+            </div>
+            <span class="chat__time">23:14</span>
+          </div>
+        </div>
+      </section>
+      <section class="chat">
+        <img src="./img/avatar.png" class="chat__avatar"></img>
+        <div class="chat-container">
+          <span class="chat__name">어피치</span>
+          <div class="chat__message">
+            <div class="chat__bubble">
+              <span>오늘 영화보러갈래?</span>
+            </div>
+            <span class="chat__time">23:14</span>
+          </div>
+        </div>
+      </section>
+      <section class="chat chat-own">
+        <div class="chat-container">
+          <div class="chat__message">
+            <div class="chat__bubble">
+              <span>요새 배트맨 재밌대 그거 보자!</span>
+            </div>
+            <span class="chat__time">23:15</span>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <form action="#" class="reply-form">
+      <div class="reply-form__icon">
+        <i class="fa-solid fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply-form__text">
+        <input type="text" placeholder="메시지를 입력하세요." />
+        <i class="fa-regular fa-face-grin-wink fa-2x"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up fa-2x"></i>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
