@@ -30,5 +30,5 @@
   --dark-redpink: #d18f94;
   --white: #ffffff;
   --black: #000000;
-  --gray: #f5f5f6;
+  --gray: rgba(0, 0, 0, 0.8);
 }

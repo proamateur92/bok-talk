@@ -4,12 +4,16 @@
 @import url('./component/divide-line.css');
 @import url('./component/footer-bar.css');
 @import url('./component/user-component.css');
+@import url('./component/notification.css');
+@import url('./component/etc-header.css');
 
 /* screen */
 @import url('./screen/login.css');
 @import url('./screen/friends.css');
 @import url('./screen/find.css');
 @import url('./screen/more.css');
+@import url('./screen/setting.css');
+@import url('./screen/chatroom.css');
 
 /* common */
 @import url('./reset.css');
