@@ -1,0 +1,40 @@
+.text__line {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  width: 20px;
+  height: 5px;
+  border-top: 3px solid var(--pink);
+  border-bottom: 3px solid var(--pink);
+}
+
+.more-icon {
+  display: flex;
+  justify-content: space-between;
+  margin: var(--size-lg) var(--size-2x);
+}
+
+.more-icon__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.more-icon__container i {
+  margin-bottom: var(--size-xs);
+}
+
+.more-icon__container:nth-child(2) {
+  position: relative;
+}
+
+.more-icon__title {
+  font-size: var(--font-md);
+  color: var(--dark-pink);
+}
+
+.notification__dot--imoticon {
+  top: -5px;
+  right: 0;
+}
