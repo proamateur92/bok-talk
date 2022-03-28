@@ -8,3 +8,20 @@
 .logo-header__icons i {
   margin-left: var(--size-xs);
 }
+
+.logo-header__link:nth-child(2) {
+  position: relative;
+}
+
+.logo-header__link:nth-child(2) span {
+  position: absolute;
+  display: inline-block;
+  color: var(--redpink);
+  left: 33px;
+  bottom: var(--size-md);
+  width: var(--size-sm);
+  height: var(--size-sm);
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-bold);
+  background-color: var(--light-pink);
+}

@@ -1,5 +1,6 @@
 .divide-line {
   margin: var(--size-xs) var(--size-md);
+  padding-top: var(--size-xs);
   border-top: 1px solid var(--dark-pink);
 }
 
@@ -12,5 +13,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: var(--size-xs);
 }

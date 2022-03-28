@@ -50,10 +50,26 @@
   color: var(--dark-pink);
 }
 
+.notification__number--chat {
+  position: static;
+  margin: 0;
+}
+
 .user-component__info i {
   color: var(--light-redpink);
 }
 
 .user-component__info span {
   font-size: var(--font-lg);
+}
+
+.user-component__info--vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.notification__number--chat {
+  position: static;
+  margin: 0;
 }
