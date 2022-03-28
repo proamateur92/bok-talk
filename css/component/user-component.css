@@ -50,11 +50,6 @@
   color: var(--dark-pink);
 }
 
-.notification__number--chat {
-  position: static;
-  margin: 0;
-}
-
 .user-component__info i {
   color: var(--light-redpink);
 }
@@ -64,6 +59,7 @@
 }
 
 .user-component__info--vertical {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;

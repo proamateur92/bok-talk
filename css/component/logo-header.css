@@ -9,7 +9,8 @@
   margin-left: var(--size-xs);
 }
 
-.logo-header__link:nth-child(2) {
+.logo-header__link:nth-child(2),
+.logo-header__link:last-child {
   position: relative;
 }
 
