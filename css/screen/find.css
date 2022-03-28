@@ -106,6 +106,24 @@
   bottom: 0;
 }
 
+.find-openchat__hearts i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: var(--light-pink);
+  }
+  50% {
+    color: var(--redpink);
+    transform: scale(1.5);
+  }
+  100% {
+    color: var(--bright-pink);
+  }
+}
+
 .find-openchat__hearts-num {
   display: inline-block;
   margin-left: var(--size-2xs);

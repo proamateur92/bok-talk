@@ -16,3 +16,28 @@
   margin: 0 var(--size-xs);
   color: var(--light-pink);
 }
+
+#splash-screen {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 10;
+  animation: hideSplashScreen 500ms ease-in-out forwards;
+  animation-delay: 400ms;
+}
+
+#splash-screen img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

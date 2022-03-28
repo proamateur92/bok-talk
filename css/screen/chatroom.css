@@ -23,8 +23,60 @@
   display: flex;
   margin: var(--size-2xs) var(--size-md);
   color: var(--light-redpink);
+  opacity: 0;
 }
 
+.chatroom-main > section:first-child {
+  animation: fadeInTime 1s linear forwards;
+}
+
+.chatroom-main > section:nth-child(2) {
+  animation: fadeIn 1s linear forwards;
+  animation-delay: 0.6s;
+}
+
+.chatroom-main > section:nth-child(3) {
+  animation: fadeIn 1s linear forwards;
+  animation-delay: 1.2s;
+}
+
+.chatroom-main > section:last-child {
+  animation: fadeInOwn 1s linear forwards;
+  animation-delay: 1.8s;
+}
+
+@keyframes fadeInTime {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInOwn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 .chat__avatar {
   width: var(--size-3x);
   height: var(--size-3x);
@@ -84,6 +136,7 @@
   padding: var(--size-sm) var(--size-sm);
   box-sizing: border-box;
   background-color: var(--light-redpink);
+  transition: all 300ms ease-in-out;
 }
 
 .reply-form__icon i {
@@ -95,19 +148,19 @@
 }
 
 .reply-form__text {
-  display: flex;
-  align-items: center;
+  position: relative;
   width: 90%;
 }
 
 .reply-form__text input {
-  position: relative;
   width: 100%;
   color: var(--redpink);
   font-size: var(--font-lg);
   padding: var(--size-2xs) var(--size-md);
   border: 1px solid var(--dark-pink);
   border-radius: var(--size-lg);
+  box-sizing: border-box;
+  transition: all 300ms ease-in-out;
 }
 
 .reply-form__text button,
@@ -116,12 +169,14 @@
 }
 
 .reply-form__text > i {
-  right: 65px;
-  color: var(--redpink));
+  right: var(--size-3x);
+  top: 12px;
+  color: var(--redpink);
 }
 
 .reply-form__text button {
-  right: var(--size-md);
+  right: var(--size-2xs);
+  top: 8px;
   border-radius: 50%;
   width: var(--size-2x);
   height: var(--size-2x);
@@ -130,4 +185,25 @@
 
 .reply-form__text button > i {
   color: var(--light-pink);
+}
+
+.reply-form:focus-within .reply-form__icon,
+.reply-form:focus-within .fa-face-grin-wink,
+.reply-form:focus-within button {
+  opacity: 0;
+}
+
+.reply-form .reply-form__icon,
+.reply-form .fa-face-grin-wink,
+.reply-form button {
+  transition: all 300ms ease-in-out;
+}
+
+.reply-form:focus-within input {
+  width: 98vw;
+  transform: translateX(-12%) translateY(-100px);
+}
+
+.reply-form:focus-within {
+  transform: translateY(100px);
 }

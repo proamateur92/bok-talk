@@ -22,12 +22,32 @@
   font-size: var(--font-lg);
 }
 
+.status-bar__time:hover {
+  background-color: var(--dark-pink);
+  animation: turnTime 1s ease-in-out infinite;
+}
+
+@keyframes turnTime {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
 .status-bar__device {
   display: flex;
 }
 
 .status-bar__device > i {
   margin-left: var(--size-2xs);
+  transition: transform 300ms ease-in-out;
+}
+
+.status-bar__device > i:hover {
+  transform: scale(1.2);
+  color: var(--dark-pink);
 }
 
 .signal {
@@ -40,6 +60,19 @@
   width: 4px;
   margin-right: 1px;
   background-color: var(--redpink);
+}
+
+.signal:hover {
+  animation: makeLongSignal 1s linear infinite;
+}
+
+@keyframes makeLongSignal {
+  from {
+    transform: scaleY(1);
+  }
+  to {
+    transform: scaleY(1.5);
+  }
 }
 
 .signal__first {

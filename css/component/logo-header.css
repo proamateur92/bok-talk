@@ -14,6 +14,20 @@
   margin-left: var(--size-xs);
 }
 
+.logo-header__icons i:hover {
+  color: var(--light-redpink);
+  animation: rotateIcon 1s linear infinite;
+}
+
+@keyframes rotateIcon {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .logo-header__link:nth-child(2),
 .logo-header__link:last-child {
   position: relative;

@@ -12,6 +12,19 @@
   color: var(--light-pink);
   background-color: var(--dark-redpink);
   cursor: pointer;
+  animation: moveNotificationNumber 700ms ease-in-out infinite;
+}
+
+@keyframes moveNotificationNumber {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(20%) rotateY(90deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .notification__number--chat {

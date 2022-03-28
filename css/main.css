@@ -6,6 +6,7 @@
 @import url('./component/user-component.css');
 @import url('./component/notification.css');
 @import url('./component/etc-header.css');
+@import url('./component/no-mobile.css');
 
 /* screen */
 @import url('./screen/login.css');
@@ -19,3 +20,11 @@
 @import url('./reset.css');
 @import url('./variable.css');
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+img {
+  transition: all 300ms ease-in-out;
+}
+
+img:not(img[value='cover']):hover {
+  transform: scale(1.15);
+}

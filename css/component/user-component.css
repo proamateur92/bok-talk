@@ -40,13 +40,13 @@
 }
 
 .user-component__name {
-  font-size: var(--font-md);
+  font-size: var(--font-lg);
   font-weight: var(--font-weight-bold);
 }
 
 .user-component__message {
   font-size: var(--font-md);
-  font-weight: var(--font-weight-light);
+  font-weight: var(--font-weight-medium);
   color: var(--dark-pink);
 }
 
